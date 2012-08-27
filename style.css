@@ -1,0 +1,145 @@
+* {
+	margin: 0px;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+body {
+	font-family: arial,微软雅黑, "Helvetica Neue";
+	color: #666;
+	background-color: #E8E4D8;
+}
+li {
+	list-style: none;
+	position: relative;
+}
+ul {
+	padding: 0;
+}
+input[type="text"], input[type="password"], textarea, select {
+	padding: 5px;
+	color: #444;
+	font: bold 12px "Lucida Grande", sans-serif;
+	/*background: white url(../img/input.png) repeat-x 0 0;*/
+	border: 1px solid #B0B0B2;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#outDiv {
+	margin: 0 auto;
+	width: 900px;
+	position: relative;
+}
+
+.header {
+	background-image: url('images/header-bk.gif');
+	overflow: hidden;
+	z-index: 1;
+}
+
+.header .menu {
+	float: left;
+	position: relative;
+	/*left: -65px;*/
+	margin-top: 113px;
+	height: 45px;
+	background: transparent;
+	color: white;
+	line-height: 30px;	
+}
+
+.header .menu li {
+	background: 
+	cursor: pointer;
+	margin-top: 5px;
+	display: block;
+	float: left;
+	margin-left: 10px;
+	padding-right: 15px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: white;
+}
+.header .logoArea {
+	float: left;
+}
+.main {
+	margin-top: 30px;
+	background: #FFF;
+	height: 1024px;
+}
+.main .imageSlider {
+	margin: 0 auto;
+	width: 800px;
+	padding-top: 5px;
+}
+.main .imageSlider img {
+	width: 800px;
+}
+.main .displayArea {
+	margin: 0 auto;
+	width: 800px;
+}
+.main .headerImage {
+	width: 200px;
+	float: left;
+}
+.main .im-mid-line {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	background: url(./images/mid-line.jpg) repeat-x;
+}
+.main .productArea {
+	margin: 0 auto;
+}
+
+.productArea .product {
+	width: 200px;
+}
+.productArea .productImage {
+	margin: 0 auto;
+}
+.productArea .productName {
+	text-align: center;
+}
+
+.productList {
+	margin-top: 30px;
+}
+
+.productList .productImage{
+	left: 20px;
+	float: left;
+	position: relative;
+}
+
+.productList .product{
+	margin-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	position: absolute;
+	width: 850px;
+	background-color: #FFE6B3;
+	border: 1px solid #B0B0B2;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.productList .productDetail {
+	left: 40px;
+	position: relative;
+}
+
+.footer {
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.footer p {
+	font-size: 20px;
+	line-height: 20px;
+}
